@@ -17,7 +17,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<spring.version>3.2.4.RELEASE</spring.version>
+		<spring.version>3.2.5.RELEASE</spring.version>
 		<spring.security.version>3.2.0.M2</spring.security.version>
 		<spring-data-commons.version>1.6.2.RELEASE</spring-data-commons.version>
 		<java.version>1.7</java.version>
@@ -154,6 +154,27 @@
         	<version>${spring-data-commons.version}</version>
         </dependency>
         
+        <dependency>
+        	<groupId>org.springframework</groupId>
+        	<artifactId>spring-jms</artifactId>
+        	<version>${spring.version}</version>
+        </dependency>
+        <dependency>
+        	<groupId>org.springframework</groupId>
+        	<artifactId>spring-context</artifactId>
+        	<version>${spring.version}</version>
+        </dependency>
+        <dependency>
+        	<groupId>org.springframework</groupId>
+        	<artifactId>spring-context-support</artifactId>
+        	<version>${spring.version}</version>
+        </dependency>
+        <dependency>
+        	<groupId>org.springframework</groupId>
+        	<artifactId>spring-test</artifactId>
+        	<version>${spring.version}</version>
+        </dependency>
+        
         <!-- Logging dependencies -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -175,5 +196,20 @@
             <artifactId>jcl-over-slf4j</artifactId>
             <version>1.7.1</version>
         </dependency>
+
+        
+        
+        <dependency>
+        	<groupId>org.apache.activemq</groupId>
+        	<artifactId>activemq-core</artifactId>
+        	<version>5.7.0</version>
+        </dependency>
+        <dependency>
+        	<groupId>junit</groupId>
+        	<artifactId>junit</artifactId>
+        	<version>4.11</version>
+        </dependency>
+
+        
 	</dependencies>
 </project>
